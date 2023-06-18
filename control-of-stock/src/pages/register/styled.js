@@ -1,6 +1,6 @@
 import { styled } from "styled-components";
 
-export const LoginPageStyled = styled.div`
+export const RegisterPageStyled = styled.div`
   .onda {
     position: fixed;
     bottom: 0;
@@ -13,7 +13,7 @@ export const LoginPageStyled = styled.div`
 
   .position {
     position: absolute;
-    top: 328px;
+    top: 344px;
     left: 50%;
 
     display: flex;
@@ -29,7 +29,7 @@ export const LoginPageStyled = styled.div`
     align-items: center;
 
     width: 250px;
-    height: 380px;
+    height: 420px;
 
     background-color: var(--black);
 
@@ -58,7 +58,7 @@ export const LoginPageStyled = styled.div`
 
   .div-form {
     width: max-content;
-    height: 380px;
+    height: 420px;
     padding: 0px 30px;
 
     background-color: white;

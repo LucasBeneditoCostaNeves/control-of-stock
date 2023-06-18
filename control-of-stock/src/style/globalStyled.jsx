@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import "react-toastify/dist/ReactToastify.css";
 
 export const GlobalStyled = createGlobalStyle`
 
@@ -66,8 +67,6 @@ html{
     --gray-9: #F8F9FA;
     --gray-10:#FDFDFD;
     --gray-50: #EDEAFD;
-
-    --font-family: 'Nunito', sans-serif;
 
     /* Títulos */
     --title-weight-bold: bold;

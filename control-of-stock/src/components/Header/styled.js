@@ -20,5 +20,7 @@ export const HeaderStyled = styled.header`
     background-color: var(--black);
 
     font-weight: 700;
+
+    padding: 0px 24px;
   }
 `;

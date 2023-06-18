@@ -15,6 +15,8 @@ export const InputStyled = styled.div`
     border-radius: 4px;
     border: var(--gray-3) solid 1px;
 
+    padding-left: 8px;
+
     box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px;
   }
 
@@ -27,18 +29,24 @@ export const InputStyled = styled.div`
   }
 
   .info {
-    font-size: 15px;
-    margin-top: 3px;
-    color: var(--red);
     position: absolute;
     bottom: -19px;
     left: 39px;
+
+    font-size: 15px;
+
+    margin-top: 3px;
+
+    color: var(--red);
   }
 
   img {
     width: 20px;
+
     position: absolute;
     bottom: 9px;
     right: 12px;
+
+    cursor: pointer;
   }
 `;

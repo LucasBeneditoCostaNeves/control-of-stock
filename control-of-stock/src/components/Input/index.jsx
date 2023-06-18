@@ -13,7 +13,6 @@ export const Input = ({
   setType,
 }) => {
   const newType = () => {
-    console.log("Aui");
     if (state === "password") {
       setType("text");
     } else if (state === "text") {
@@ -29,7 +28,6 @@ export const Input = ({
       {img && state === "text" && (
         <img src={olhoFechado} alt="olho" onClick={() => newType()} />
       )}
-      {/* {img && <img src={img} alt="olho" onClick={() => newType()} />} */}
       <label>{label}</label>
       <input type={type} placeholder={placeholder} {...register} />
       <span className="info">{msgerror}</span>
